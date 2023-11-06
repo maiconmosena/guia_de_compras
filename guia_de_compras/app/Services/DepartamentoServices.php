@@ -17,6 +17,10 @@ class DepartamentoServices {
         return $this->departamentoModel->findAll();
     }
 
+    public function adicionarDep(){
+        //if, else, return
+    }
+
     
     // se precisar inserir um novo departamento
     // quasis metodos posso inserir aqui

@@ -17,8 +17,6 @@ class ComprasServices {
         return $this->comprasModel->findAll();
     }
 
-    // quasis metodos posso inserir aqui
-
 }
 
 ?>

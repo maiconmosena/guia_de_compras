@@ -6,14 +6,13 @@
     <title>Comprar produto</title>
 </head>
 <body>
-            
-                    <h1>Comprar</h1>
+    <h1>Comprar</h1>
     <!--o metodo calcular ira fazer o calculo do valor -->
     
     <form method="POST" action="#" oninput="calcular()">
         <label for="name">Nome do Produto:</label>
         <input type="text" name="name" id="name"><br>
-        <!--foreach para fazer um filtro se ja foi comprado
+        <!--foreach ou verificação para fazer um filtro se ja foi comprado,
             teria como fazer do programa ja selecionar automaticamente-->
 
         <label for="text">Categoria:</label>
@@ -38,13 +37,10 @@
             </section><br>
 
         <label for="number">Valor:</label>
-        <input type="password" name="valor" id="valor"><br>
+        <input type="number" name="valor" id="valor"><br>
 
         <label for="number">Quantidade:</label>
         <input type="number" name="quantidade" id="quantidade"><br>
-
-        <label for="number">Valor:</label>
-        <input type="password" name="valor" id="valor"><br>
 
         <label for="time">Data validade</label>
         <input type="datetime" name="validade" id="validade"><br>
@@ -53,7 +49,7 @@
         <input type="datetime" name="compra" id="compra"><br>
         
         <button type="submit">Finalizr Compra</button>
-        <!--fazer uma verificação para saber se deseja finalizar compra > 
+        <!--fazer uma verificação para saber se deseja finalizar compra --> 
 </body>
 </html>
 

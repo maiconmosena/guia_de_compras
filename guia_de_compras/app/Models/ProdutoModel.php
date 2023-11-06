@@ -15,9 +15,8 @@ class ProdutoModel extends Model
     protected $returnType       = Produto::class;
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    // Campos que você vai poder manipular
-    //seria interessante inserir lagum metodo para fazer os chamados aqui
-    protected $allowedFields    = ['departamento_id', 'categoria', 'nome','quantidade', 'valor', 'data_validade', 'data_compra', 'descricao'];
+    protected $allowedFields    = ['departamento_id', 'categoria', 'nome','quantidade', 'valor', 
+    'data_validade', 'data_compra', 'descricao'];
 
     // Dates
     protected $useTimestamps = false;

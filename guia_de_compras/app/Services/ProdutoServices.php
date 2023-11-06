@@ -28,6 +28,10 @@ class ProdutoServices {
     public function comprar() {
         return $this->produtoModel->findAll();
     }
+
+    public function cadastrar() {
+        return $this->produtoModel->findAll();
+    }
     
-    //rever os 3 metodos
+    //rever os metodos
 }

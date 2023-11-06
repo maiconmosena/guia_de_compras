@@ -40,9 +40,6 @@
         <label for="number">Quantidade:</label>
         <input type="number" name="quantidade" id="quantidade"><br>
 
-        <label for="number">Valor:</label>
-        <input type="password" name="valor" id="valor"><br>
-
         <label for="time">Data validade</label>
         <input type="datetime" name="validade" id="validade"><br>
 
