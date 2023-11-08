@@ -7,11 +7,13 @@
 </head>
 <body>
     <h1>Comprar</h1>
-    <!--o metodo calcular ira fazer o calculo do valor -->
+
+    <!--o metodo calcular ira fazer o calculo do valor e enxugar o codigo -->
     
     <form method="POST" action="#" oninput="calcular()">
         <label for="name">Nome do Produto:</label>
         <input type="text" name="name" id="name"><br>
+
         <!--foreach ou verificação para fazer um filtro se ja foi comprado,
             teria como fazer do programa ja selecionar automaticamente-->
 
@@ -48,7 +50,7 @@
         <label for="time">Data Compra:</label>
         <input type="datetime" name="compra" id="compra"><br>
         
-        <button type="submit">Finalizr Compra</button>
+        <button type="submit">Finalizar Compra</button>
         <!--fazer uma verificação para saber se deseja finalizar compra --> 
 </body>
 </html>

@@ -1,4 +1,5 @@
   <!--tratamento de erros-->
+  
 <?php if(session()->getFlashdata('error')): ?>
     <div class="alert alert-danger"><?= session()->getFlashdata('error') ?></div>
 <?php endif;?>
@@ -7,7 +8,8 @@
     <div class="alert alert-success"><?= session()->getFlashdata('success') ?></div>
 <?php endif;?>
 
-  <!--furmulario de login do usuario-->
+  <!--formulario de login do usuario-->
+
 <form action="#" method="post" target="_self">
   <label>Nome:</label><br>
   <input type="text" id="senha" name="senha" value="..." required ><br>
@@ -16,4 +18,4 @@
   <input type="submit" value="Login">
 </form> 
 
-<a href = "#">#</a><!--aguardar definição para enxugar codigo-->
+<a href="#"></a><!--direcionar para interface, aguardar definição para enxugar codigo-->

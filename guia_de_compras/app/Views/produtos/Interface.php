@@ -7,7 +7,10 @@
 </head>
 <body>
     <!--interface de direcionamento
-    seria melhor criar um botao?-->
+    seria melhor criar um botao?
+    
+    - todos os meus departamentos devem listar os produtos de si-->
+    
    <div id="inteface">
         <table id="tabela">
             <tr><td class="ce"><a href="#"></a>Cozinha</td></tr>

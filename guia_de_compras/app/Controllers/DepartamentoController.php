@@ -1,5 +1,5 @@
 <?php
-
+//controller departamento
 namespace App\Controllers;
 
 use App\Controllers\BaseController;

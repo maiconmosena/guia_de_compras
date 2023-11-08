@@ -7,7 +7,9 @@
 </head>
 <body>
     <h1>Adicionar produtos</h1>
-    <!--o metodo calcular ira fazer o calculo do valor -->
+
+    <!--o metodo calcular ira fazer o calculo do valor
+        é possivel enxugar o codigo? -->
     
     <form method="POST">
         <label for="name">Nome do Produto:</label>

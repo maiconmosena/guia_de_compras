@@ -1,3 +1,5 @@
+<!--tratamento de erros-->
+
 <?php if(session()->getFlashdata('error')): ?>
     <div class="alert alert-danger"><?= session()->getFlashdata('error') ?></div>
 <?php endif;?>
@@ -5,6 +7,8 @@
 <?php if(session()->getFlashdata('success')): ?>
     <div class="alert alert-success"><?= session()->getFlashdata('success') ?></div>
 <?php endif;?>
+
+<!--tabela para listar produtos dos departamentos-->
 
 <table>
 <tr>
@@ -33,3 +37,5 @@
  
 <?php endforeach ?>
 </table>
+
+<a href="#"></a> <!--aguadar direcionamento-->
