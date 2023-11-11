@@ -32,6 +32,21 @@ class Compras extends Migration
             'saldo' => [
                 'type' => 'float',
                 'constraint' => 10.2
+            ],
+            'created_at' => [
+                'type' => 'timestamp',
+                'null' => true,
+                'default' => null,
+            ],
+            'updated_at' => [
+                'type' => 'timestamp',
+                'null' => true,
+                'default' => null,
+            ],
+            'deleted_at' => [
+                'type' => 'timestamp',
+                'null' => true,
+                'default' => null,
             ]
         ]);
         $this->forge->addKey('id', true);
